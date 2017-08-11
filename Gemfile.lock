@@ -37,9 +37,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rake
   rspec
   rubocop
-  rake
 
 BUNDLED WITH
    1.15.3
