@@ -39,7 +39,7 @@ describe Rectangle do
   it 'calculates area of rectangle' do
     a = Rectangle.new(5, 7)
     b = Rectangle.new(0, 4)
-    expect(a.area).to be_instance_of Integer
+    expect(a.area).to be_instance_of Fixnum
     expect(b.area).to eq(0)
   end
 end
@@ -58,7 +58,7 @@ describe Triangle do
   it 'calculates area of triangle' do
     a = Triangle.new(5, 7)
     b = Triangle.new(0, 4)
-    expect(a.area).to be_instance_of Integer
+    expect(a.area).to be_instance_of Fixnum
     expect(b.area).to eq(0)
   end
 end
