@@ -25,5 +25,5 @@ array.push(b)
 array.push(c)
 array.push(d)
 array.map do |i|
-  p i.area
+  p i.area.class
 end
