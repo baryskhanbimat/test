@@ -39,3 +39,6 @@ Style/FrozenStringLiteralComment:
 
 Rails:
   Enabled: true
+
+Lint/UnifiedInteger:
+  Enabled: false
